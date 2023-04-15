@@ -36,6 +36,6 @@
     transform: rotate(360deg);
   }
 }
-.accordion-button::after{    background-color: white;}
+.accordion-button::after{filter: invert(1);}
 .dark{color:black;}
 .light{color:white;}

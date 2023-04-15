@@ -29,14 +29,14 @@ function App() {
     setMode('dark');
     document.body.style.backgroundColor = 'grey';
     showAlert("Dark mode has been enabled!", "success");
-    document.title = "TextUtils - Dark Mode";
+    //document.title = "TextUtils - Dark Mode";
     
   }
   else{
     setMode('light');
     document.body.style.backgroundColor = 'white';
     showAlert("Light mode has been enabled!", "success");
-    document.title = "TextUtils - Light Mode";
+    // document.title = "TextUtils - Light Mode";
   }
   }
   
@@ -51,12 +51,12 @@ function App() {
     // </div>
     <>
     <Router>
-     <Navbar toggletodark={toggletodark} mode={mode}  title="MyWebsite" aboutText="About Us"/>
+     <Navbar toggletodark={toggletodark} mode={mode}  title="TextUtils" aboutText="About Us"/>
      <Alert alert={alert}/>
      <div className='container'>
      <Routes>   
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/" element={<TextForm showAlert={showAlert} mode={mode} heading="Enter the text to analyze"/>} />
+          <Route path="/about" element={<AboutUs mode={mode} />} />
+          <Route path="/" element={<TextForm showAlert={showAlert} mode={mode} heading="Enter text to analyze"/>} />
         </Routes>
      </div>
      </Router>
