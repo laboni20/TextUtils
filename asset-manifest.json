@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/TextUtils/static/css/main.a9ce2746.css",
-    "main.js": "/TextUtils/static/js/main.572c8d0e.js",
+    "main.css": "/TextUtils/static/css/main.70d48a38.css",
+    "main.js": "/TextUtils/static/js/main.d9d8f6bc.js",
     "static/js/787.28cb0dcd.chunk.js": "/TextUtils/static/js/787.28cb0dcd.chunk.js",
+    "static/media/word-wordcountchecker-checked-file-35301.webp": "/TextUtils/static/media/word-wordcountchecker-checked-file-35301.dec34a690e216dc0f2a5.webp",
     "index.html": "/TextUtils/index.html",
-    "main.a9ce2746.css.map": "/TextUtils/static/css/main.a9ce2746.css.map",
-    "main.572c8d0e.js.map": "/TextUtils/static/js/main.572c8d0e.js.map",
+    "main.70d48a38.css.map": "/TextUtils/static/css/main.70d48a38.css.map",
+    "main.d9d8f6bc.js.map": "/TextUtils/static/js/main.d9d8f6bc.js.map",
     "787.28cb0dcd.chunk.js.map": "/TextUtils/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9ce2746.css",
-    "static/js/main.572c8d0e.js"
+    "static/css/main.70d48a38.css",
+    "static/js/main.d9d8f6bc.js"
   ]
 }
